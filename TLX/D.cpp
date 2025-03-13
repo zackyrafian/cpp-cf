@@ -1,24 +1,23 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int luas[4][3] = {
-        {225 * 335, 299 * 278, 300 * 250},
-        {215 * 394, 144 * 718, 300 * 290},
-        {200 * 400, 240 * 333, 142 * 619},
-        {314 * 298, 411 * 198, 333 * 222}
-    };
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
-    int count = 0;  
-    for (int i = 0; i < 4; i++) {       
-        for (int j = 0; j < 3; j++) {    
-            if (luas[i][j] >= 80000) {   
-                count++;                 
+    vector<int> A = {4,4,3,2,7,2};
+
+    for (int i = 0; i < A.size(); i++) {
+        for (int j = 0; j < A.size() - i; j++) {
+            if (A[j] > A[j + 1]) {
+                 swap(A[j], A[j + 1]);
             }
         }
     }
 
-    cout << count << endl;
+    for (int i : A) { 
+        cout << i << endl;
+    }
 
     return 0;
 }
