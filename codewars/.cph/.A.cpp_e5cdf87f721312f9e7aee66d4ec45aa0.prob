@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/pee/cpp/codewars/A.cpp","tests":[{"id":1739598761235,"input":"()","output":"true"},{"id":1739599201930,"input":"([{}])","output":""},{"id":1739599208288,"input":"[(])","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pee/cpp/codewars/A.cpp","group":"local","local":true}

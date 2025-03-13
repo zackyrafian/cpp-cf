@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"/home/pee/cpp/codewars/B.cpp","tests":[{"id":1739599852256,"input":"4\n9 1 1 9 ","output":""},{"id":1739600048359,"input":"765","output":"493625"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pee/cpp/codewars/B.cpp","group":"local","local":true}

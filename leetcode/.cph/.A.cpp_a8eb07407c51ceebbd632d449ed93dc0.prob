@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/pee/cpp/leetcode/A.cpp","tests":[{"id":1740300007178,"input":"-042","output":"-42"},{"id":1740300054373,"input":"1337c0d3","output":"1337"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pee/cpp/leetcode/A.cpp","group":"local","local":true}
