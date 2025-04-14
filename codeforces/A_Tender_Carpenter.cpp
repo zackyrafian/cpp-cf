@@ -1,33 +1,26 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-int main () { 
-    int t; 
-    cin >> t;
+void solve () { 
+    int N; cin >> N;
 
-    while (t--) { 
-        int n; 
-        cin >> n; 
+    vector<int> A(N); 
+    for (int i = 0; i < N; i++) { 
+        cin >> A[i];
 
-        vector<int> a(n);
-        unordered_set<int> seen;
-
-        bool x = false; 
-
-        for (int i = 0; i < n; i++){ 
-                cin >> a[i]; 
-                if (seen.find(a[i]) != seen.end()) { 
-                    x = true;
-                }
-                seen.insert(a[i]);
-        }
-
-        if(x){ 
-            cout << "YES" << endl;
-        } else { 
-            cout << "NO" << endl;
-        }
+        cout << A[i];
     }
+    cout << endl;
 }
- 
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+
+    int T; cin >> T;
+    while (T--) { 
+        solve();
+    }
+
+    return 0;
+}
