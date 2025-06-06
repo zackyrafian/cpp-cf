@@ -1,15 +1,21 @@
-/*
- * @lc app=leetcode id=15 lang=cpp
- *
- * [15] 3Sum
- */
+#include <bits/stdc++.h>
+using namespace std;
 
-// @lc code=start
-class Solution {
-public:
-    vector<vector<int>> threeSum(vector<int>& nums) {
-        
-    }
-};
-// @lc code=end
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
+    vector<int> nums = {1,2,3,1}; 
+
+    int d = 0;
+    int n = nums.size();
+    for (int i = 0; i < n; i++) { 
+        if (nums[i] == nums[i + 1]) { 
+            d++;
+            }
+        }
+
+        cout << d;
+
+    return 0;
+}
