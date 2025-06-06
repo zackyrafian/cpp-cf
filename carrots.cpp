@@ -5,10 +5,16 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
-    vector<int> digits = {1,2,3};
+    int a, b; 
+    cin >> a >> b;
+    
+    while (a--) { 
+        string s; 
+        cin >> s;
+    }
 
-
-
+    cout << b;
+    
 
     return 0;
 }

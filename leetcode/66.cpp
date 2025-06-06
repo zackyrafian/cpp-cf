@@ -22,7 +22,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
-    vector<int> digits = {1,2,3};
+    vector<int> digits = {1,9,9};
     Solution sol;
     vector<int> result = sol.plusOne(digits);
 

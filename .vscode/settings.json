@@ -1,25 +1,25 @@
 {
-    "files.associations": {
-        "ostream": "cpp",
-        "iostream": "cpp",
-        "iosfwd": "cpp",
-        "*.tcc": "cpp",
-        "bitset": "cpp",
-        "algorithm": "cpp",
-        "format": "cpp",
-        "iomanip": "cpp",
-        "cmath": "cpp",
-        "unordered_set": "cpp",
-        "vector": "cpp",
-        "array": "cpp",
-        "string_view": "cpp",
-        "initializer_list": "cpp",
-        "ranges": "cpp",
-        "span": "cpp",
-        "stacktrace": "cpp",
-        "regex": "cpp",
-        "valarray": "cpp"
-    },
+  "files.associations": {
+    "ostream": "cpp",
+    "iostream": "cpp",
+    "iosfwd": "cpp",
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "algorithm": "cpp",
+    "format": "cpp",
+    "iomanip": "cpp",
+    "cmath": "cpp",
+    "unordered_set": "cpp",
+    "vector": "cpp",
+    "array": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "stacktrace": "cpp",
+    "regex": "cpp",
+    "valarray": "cpp",
+    "numeric": "cpp",
+    "tuple": "cpp"
+  }
 }
-
-
