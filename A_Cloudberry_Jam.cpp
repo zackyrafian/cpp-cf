@@ -5,9 +5,13 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
-    vector<string> words = {"listen", "silent", "enlist", "abc", "cab"};
+    int T; cin >> T; 
 
+    while (T--) { 
+        int N; cin >> N; 
 
+        cout << N + N << endl;
+    }
 
     return 0;
 }

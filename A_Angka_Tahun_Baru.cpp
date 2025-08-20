@@ -14,7 +14,7 @@ int main() {
     cin.tie(0);
 
     int N; cin >> N;
-
+    
     if (isPrime(N) && N < 7){ 
         cout << "YES\n";
     } else { 

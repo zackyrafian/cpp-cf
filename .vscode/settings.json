@@ -20,6 +20,13 @@
     "regex": "cpp",
     "valarray": "cpp",
     "numeric": "cpp",
-    "tuple": "cpp"
+    "tuple": "cpp",
+    "unordered_map": "cpp",
+    "chrono": "cpp",
+    "hash_map": "cpp",
+    "any": "cpp",
+    "*.inc": "cpp",
+    "deque": "cpp",
+    "string": "cpp"
   }
 }

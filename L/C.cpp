@@ -6,5 +6,13 @@ int main() {
     cin.tie(0);
 
 
+    vector<string> s = {"flower","flow","flight"};
+
+    for (int i = 0; i < s.size(); i++) { 
+        if (s[i][i] == s[i + 1][i + 1]) { 
+            cout << i;
+        }
+    }
+
     return 0;
 }

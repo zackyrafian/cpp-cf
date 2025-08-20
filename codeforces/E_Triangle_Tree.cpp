@@ -18,7 +18,7 @@ void dfs(int v, int p, int d) {
 
 int get_lca(int u, int v, int logn) {
     if(depth[u] < depth[v]) swap(u, v);
-    
+
     for(int i = logn; i >= 0; i--) {
         if(depth[u] - (1 << i) >= depth[v]) {
             u = parent[u][i];
