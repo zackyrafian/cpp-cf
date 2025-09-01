@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/pee/cpp/L/A/2W/bt/A.cpp","tests":[{"id":1756731690100,"input":"1 1 2","output":"1 1 2 \n1 2 1 \n2 1 1 \n"},{"id":1756731732103,"input":"1 2 3","output":"1 2 3 \n1 3 2 \n2 1 3 \n2 3 1 \n3 1 2 \n3 2 1 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pee/cpp/L/A/2W/bt/A.cpp","group":"local","local":true}

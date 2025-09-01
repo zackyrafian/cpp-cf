@@ -5,20 +5,22 @@ int main() {
   ios::sync_with_stdio(false);
   cin.tie(0);
 
-  string s = "Hello World";
+  vector<vector<int>> nums = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
-  int i = s.length() - 1;
-  while (i >= 0 && s[i] == ' ') {
-    i--;
+  int n = nums.size(), m = nums[0].size();
+  vector<vector<int>> prefix(n, vector<int>(m, 0));
+
+  for (int i = 0; i < n; i++) {
+    for (int j = 0; j < m; j++) {
+      int up = (i > 0 ? prefix[i - 1][j] : 0);
+      int left = (j > 0 ? prefix[i][j - 1] : 0);
+      int diag = (i > 0 && j > 0 ? prefix[i - 1][j - 1] : 0);
+
+      prefix[i][j] = nums[i][j] + up + left - diag;
+
+      cout << prefix[i][j] << " ";
+    }
   }
 
-  int count = 0;
-
-  while (i >= 0 && s[i] != ' ') {
-    count++;
-    i++;
-  }
-
-  cout << count;
   return 0;
 }
